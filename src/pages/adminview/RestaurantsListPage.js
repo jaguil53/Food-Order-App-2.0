@@ -29,9 +29,9 @@ const RestaurantsListPage = () => {
       )}
       {showRestaurant && restaurants.length > 0 && (
         <Container>
-          {/* <LinkContainer to="/admin/restaurant/new"> */}
+          <LinkContainer to="/admin/restaurant/new"> 
           <Button className="my-3" variant="outline-info" onClick={(e) => handleAddRestaurant(e)}>Add Restaurant</Button>
-          {/* </LinkContainer> */}
+          </LinkContainer> 
           <Table striped hover bordered className="table-sm">
             <thead>
               <tr class="text-center">
